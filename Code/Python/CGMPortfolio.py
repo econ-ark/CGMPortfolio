@@ -7,10 +7,10 @@
 #     text_representation:
 #       extension: .py
 #       format_name: percent
-#       format_version: '1.2'
-#       jupytext_version: 1.2.4
+#       format_version: '1.3'
+#       jupytext_version: 1.14.4
 #   kernelspec:
-#     display_name: Python 3
+#     display_name: Python 3 (ipykernel)
 #     language: python
 #     name: python3
 #   language_info:
@@ -22,7 +22,7 @@
 #     name: python
 #     nbconvert_exporter: python
 #     pygments_lexer: ipython3
-#     version: 3.7.7
+#     version: 3.9.12
 #   latex_envs:
 #     LaTeX_envs_menu_present: true
 #     autoclose: false
@@ -84,7 +84,7 @@ def in_ipynb():
 # Determine whether to make the figures inline (for spyder or jupyter)
 # vs whatever is the automatic setting that will apply if run from the terminal
 if in_ipynb():
-    # %matplotlib inline generates a syntax error when run from the shell
+    # # %matplotlib inline generates a syntax error when run from the shell
     # so do this instead
     get_ipython().run_line_magic('matplotlib', 'inline')
 else:
@@ -308,7 +308,7 @@ else:
 
 # %% [markdown]
 # We present the author's originally reported policy functions for comparison
-# <center><img src="Figures\Opt_shares_by_age.jpg" style="height:300px"></center>
+# <center><img src="Figures/Opt_shares_by_age.jpg" style="height:300px"></center>
 
 # %% [markdown]
 # #### Consumption behavior
@@ -341,7 +341,7 @@ else:
 
 # %% [markdown]
 # We again present the author's originally reported policy functions for comparison
-# <center><img src="Figures\Opt_cons_by_age.jpg" style="height:300px"></center>
+# <center><img src="Figures/Opt_cons_by_age.jpg" style="height:300px"></center>
 
 # %% [markdown]
 # ### Simulations
@@ -449,7 +449,7 @@ else:
     plt.show(block=True)
 
 # %% [markdown]
-# <center><img src="Figures\ConsWInc.jpg" style="height:300px"></center>
+# <center><img src="Figures/ConsWInc.jpg" style="height:300px"></center>
 
 # %%
 # Find age percentiles
@@ -478,7 +478,7 @@ else:
     plt.show(block=True)
 
 # %% [markdown]
-# <center><img src="Figures\ShareMeanSim.jpg" style="height:300px"></center>
+# <center><img src="Figures/ShareMeanSim.jpg" style="height:300px"></center>
 
 # %% [markdown]
 # ### Other results in the original paper
@@ -487,11 +487,11 @@ else:
 #
 # The authors next conduct a welfare analysis of different allocation rules, including popular heuristics. The rules are presented in the next figure.
 #
-# <center><img src="Figures\Alloc_rules.jpg" style="height:500px"></center>
+# <center><img src="Figures/Alloc_rules.jpg" style="height:500px"></center>
 #
 # The utility cost of each policy in terms of constant consumption streams with respect to the authors calculated optimal policy function is reported in the next table.
 #
-# <center><img src="Figures\Util_cost.jpg" style="height:100px"></center>
+# <center><img src="Figures/Util_cost.jpg" style="height:100px"></center>
 #
 # Interestingly, the "no-income" column corresponds to the usual portfolio choice result of the optimal share being the quotient of excess returns and risk times relative risk aversion, disregarding labor income. The experiment shows this allocation produces substantial welfare losses.
 #
