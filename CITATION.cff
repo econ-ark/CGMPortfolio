@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "For a consumption/saving problem with transitory and permanent shocks and unbounded (CRRA) utility, this paper derives conditions under which a nondegenerate solution exists, and under which a target wealth ratio exists; all results are paired with illustrative numerical solutions."
+authors:
+  - family-names: "Velásquez-Giraldo"
+    given-names: "Mateo"
+    orcid: https://orcid.org/0000-0001-7243-6776
+  - family-names: "Zahn"
+    given-names: "Matthew"
+    orcid: https://orcid.org/0000-0003-1148-2036
+title: "REMARK: Consumption and Portfolio Choice Over the Life Cycle"
+abstract: "This REMARK is an attempt to reproduce the main results of Cocco, Gomes, & Maenhout (2005), 'Consumption and Portfolio Choice Over the Life Cycle' (https://academic.oup.com/rfs/article-abstract/18/2/491/1599892)" # abstract: optional
+date-released: 2020-08-13
+
+references:
+  - type: article
+    authors:
+      - family-names: "Cocco"
+        given-names: "Joao F."
+      - family-names: "Gomes"
+        given-names: "Francisco J."
+      - family-names: "Maenhout"
+        given-names: "Pascal J."
+    title: "Consumption and Portfolio Choice over the Life Cycle"
+    doi: "10.1093/rfs/hhi017" # optional
+    date-released: 2005-02-10
+    publisher:
+        name: "The Review of Financial Studies"
+
+repository-code: https://github.com/econ-ark/CGMPortfolio
+identifiers:
+  - type: url
+    value: "https://github.com/econ-ark/CGMPortfolio"
+
+keywords:
+  - Portfolio
+  - Risky Assets
+  - Consumption
+  - Life Cycle
