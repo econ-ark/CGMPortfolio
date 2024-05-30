@@ -1,8 +1,10 @@
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.7
-  - pip
-  - pip:
-    - -r requirements.txt
+  - matplotlib=3.3.2
+  - numpy=1.19.4
+  - scipy=1.5.*
+  - pandas=1.1.4
+  - econ-ark=0.10.7
+  - ipython
